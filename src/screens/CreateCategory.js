@@ -44,8 +44,9 @@ export default function CreateCategory({ navigation }) {
         .then(response => console.log("response.json()", response))
         .then(data => console.log(data));
         setCate_name("")
-        i("")
+        setImg()
         setFilePath("")
+        setval([])
         navigation.navigate("View")
 
     }
